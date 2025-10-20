@@ -1,190 +1,261 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
-    xmlns:o="urn:schemas-microsoft-com:office:office">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to FIT CLOUD</title>
+<html
+  lang="en"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIT CLOUD</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <style>
-        /* General Reset */
-        body, table, td, p, a {
-            font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            background-color: #f4f4f4;
-            -webkit-font-smoothing: antialiased;
-            text-size-adjust: 100%;
-        }
-        img {
-            border: 0;
-            outline: none;
-            display: block;
-            max-width: 100%;
-            height: auto;
-        }
-        table {
-            border-spacing: 0;
-            border-collapse: collapse;
-        }
+      /* General Reset */
+      body,
+      table,
+      td,
+      p,
+      a {
+        font-family: "Plus Jakarta Sans";
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #f4f4f4;
+        -webkit-font-smoothing: antialiased;
+        text-size-adjust: 100%;
+      }
+      img {
+        border: 0;
+        outline: none;
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+      table {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
 
-        /* Main Container */
-        .email-container {
-            max-width: 600px;
-            margin: 0 auto;
-            background-color: #ffffff;
-            border-radius: 8px;
-            overflow: hidden;
-        }
+      /* Main Container */
+      .email-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        border-radius: 8px;
+        overflow: hidden;
+      }
 
-        /* Header */
-        .header {
-            background-color: #ffffff;
-            text-align: center;
-            padding-top: 1%;
-        }
-        .header img {
-            max-width:600px;
-        }
+      /* Header */
+      .header {
+        background-color: #ffffff;
+        text-align: center;
+        padding-top: 1%;
+      }
+      .header img {
+        max-width: 600px;
+      }
 
-        /* Body Content */
-        .content {
-            padding: 20px 30px 10px;
-            text-align: left;
-            color: #333333;
-        }
+      /* Body Content */
+      .content {
+        padding: 20px 30px 10px;
+        text-align: left;
+        color: #000000;
+      }
+
+      .content p {
+        font-size: 18px;
+        line-height: 1.6;
+        margin: 0 0 15px;
+        color: #000000;
+      }
+
+      /* Button */
+      .btn {
+        display: inline-block;
+        background-color: #9cde00;
+        color: #000;
+        padding: 12px 30px;
+        border-radius: 30px;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+        letter-spacing: 0.5px;
+      }
+
+      /* Team Section */
+      .team {
+        text-align: center;
+        padding: 30px 15px 10px;
+      }
+      .team p {
+        font-size: 18px;
+        font-weight: 600;
+        color: #222;
+        letter-spacing: 1px;
+      }
+
+      /* Social Footer */
+      .social-footer {
+        background-color: #9cde00;
+        text-align: center;
+        padding: 20px;
+      }
+      .social-footer a {
+        display: inline-block;
+        margin: 0 6px;
+      }
+      .social-footer img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+      }
+      .help-text {
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 400;
+        margin-top: 10px;
+      }
+
+      /* Responsive */
+      @media screen and (max-width: 480px) {
         .content h1 {
-            font-size: 28px;
-            font-weight: 700;
-            margin-bottom: 10px;
-            color: #222222;
+          font-size: 22px;
         }
         .content p {
-            font-size: 16px;
-            line-height: 1.6;
-            margin: 0 0 15px;
-            color: #555555;
+          font-size: 14px;
         }
-
-        /* Button */
         .btn {
-            display: inline-block;
-            background-color: #9cde00;
-            color: #000;
-            padding: 12px 30px;
-            border-radius: 30px;
-            font-size: 16px;
-            font-weight: 600;
-            text-decoration: none;
-            margin-top: 10px;
-            letter-spacing: 0.5px;
+          padding: 10px 24px;
+          font-size: 14px;
         }
-
-        /* Team Section */
-        .team {
-            text-align: center;
-            padding: 30px 15px 10px;
-        }
-        .team p {
-            font-size: 18px;
-            font-weight: 600;
-            color: #222;
-            letter-spacing: 1px;
-        }
-
-        /* Social Footer */
-        .social-footer {
-            background-color: #9cde00;
-            text-align: center;
-            padding: 20px;
-        }
-        .social-footer a {
-            display: inline-block;
-            margin: 0 6px;
-        }
-        .social-footer img {
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-        }
-        .help-text {
-            font-size: 15px;
-            color: #ffffff;
-            font-weight: 400;
-            margin-top: 10px;
-        }
-
-        /* Responsive */
-        @media screen and (max-width: 480px) {
-            .content h1 {
-                font-size: 22px;
-            }
-            .content p {
-                font-size: 14px;
-            }
-            .btn {
-                padding: 10px 24px;
-                font-size: 14px;
-            }
-        }
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <center>
-        <table role="presentation" class="email-container" cellpadding="0" cellspacing="0" width="100%">
-            <tr>
-                <td class="header">
-                    <a href="https://fitcloud.com" target="_blank">
-                        <img src="img1.png" alt="FIT CLOUD Logo">
-                    </a>
-                </td>
-            </tr>
+  <body>
+      <table
+        role="presentation"
+        class="email-container"
+        cellpadding="0"
+        cellspacing="0"
+        width="100%"
+      >
+        <tr>
+          <td class="header">
+            <a href="https://fitcloud.com" target="_blank">
+              <img src="img1.png" alt="FIT CLOUD Logo" />
+            </a>
+          </td>
+        </tr>
 
-            <tr>
-    <td class="content">
-        <p>Hello [Username],</p>
-        <p>We received a request to reset your password for your account.  </p>
-        <p>If you made this request, please click the button below to reset your password:</p>
+        <tr>
+  <td class="content" style="padding-bottom: 0;">
+    <p>Hello {{name}},</p>
+    <p>We received a request to reset your password for your account.</p>
+    <p>Please click the button below to reset your password:</p>
 
-        <a href="[Reset_Link]" class="btn" target="_blank">Reset Password</a>
+    <a
+      href="Forgot_Password"
+      class="btn"
+      target="_blank"
+      style="
+        text-decoration: none !important;
+        border: none !important;
+        outline: none !important;
+        display: inline-block;
+        background-color: #9cde00;
+        color: #ffffff !important;
+        padding: 12px 24px;
+        border-radius: 6px;
+        font-weight: bold;
+        margin: 10px 0 15px 0;
+      "
+    >
+      Forgot Password
+    </a>
 
-        <p style="margin-top:20px;">If you didn’t request a password reset, please ignore this email.</p>
-    </td>
+    <hr
+      style="
+        border: none;
+        border-top: 2px dashed #9cde00;
+        width: 80%;
+        margin: 10px auto 10px auto;
+      "
+    />
+
+    <p
+      style="
+        font-size: 16px;
+        color: #333333;
+        text-align: center;
+        line-height: 1.6;
+        background: #f9fff2;
+        padding: 10px 15px;
+        border-radius: 8px;
+        display: inline-block;
+        margin: 0;
+      "
+    >
+      If you didn’t request a password reset, please ignore this email.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td class="team" style="padding-top: 15px; text-align: center;">
+    <p style="
+      font-size: 18px;
+      color: #000000;
+      letter-spacing: 1px;
+      border-top: 2px solid #9cde00;
+      display: inline-block;
+      padding-top: 10px;
+      margin-top: 10px;
+    ">
+      — The {{gym_name}} Team —
+    </p>
+  </td>
 </tr>
 
 
-            <tr>
-                <td class="team">
-                    <p>— The [Gym Name] Team   —</p>
-                </td>
-            </tr>
-
-            <tr>
-                <td class="social-footer">
-                    <a href="https://facebook.com/fitcloud" target="_blank">
-                        <img src="https://i.postimg.cc/52Ydq8xL/1-FB-3x.png" alt="Facebook" />
-                    </a>
-                    <a href="https://instagram.com/fitcloud" target="_blank">
-                        <img src="https://i.postimg.cc/Kcr0qJj2/ins-icon.png" alt="Instagram" />
-                    </a>
-                    <a href="https://linkedin.com/company/fitcloud" target="_blank">
-                        <img src="https://i.postimg.cc/52HqV34j/linkedin-icon.png" alt="LinkedIn" />
-                    </a>
-                    <a href="https://fitcloud.com" target="_blank">
-                        <img src="https://i.postimg.cc/76NSVtVt/web-icon.png" alt="Website" />
-                    </a>
-                    <p class="help-text">Need help? Our team is here for you!</p>
-                </td>
-            </tr>
-        </table>
-    </center>
-</body>
+        <tr>
+          <td class="social-footer">
+            <a href="https://facebook.com/" target="_blank">
+              <img
+                src="https://i.postimg.cc/52Ydq8xL/1-FB-3x.png"
+                alt="Facebook"
+              />
+            </a>
+            <a href="https://instagram.com/" target="_blank">
+              <img
+                src="https://i.postimg.cc/Kcr0qJj2/ins-icon.png"
+                alt="Instagram"
+              />
+            </a>
+            <a href="https://linkedin.com/" target="_blank">
+              <img
+                src="https://i.postimg.cc/52HqV34j/linkedin-icon.png"
+                alt="LinkedIn"
+              />
+            </a>
+            <a href="https://f1tcloud.com/" target="_blank">
+              <img
+                src="https://i.postimg.cc/76NSVtVt/web-icon.png"
+                alt="Website"
+              />
+            </a>
+            <p class="help-text">Need help? Our team is here for you!</p>
+          </td>
+        </tr>
+      </table>
+  </body>
 </html>
